@@ -1,0 +1,27 @@
+.btn {
+    margin: 10px;
+}
+
+input {
+    width: 50px;
+    margin-right: 10px;
+}
+
+#result {
+    width: 100px;
+    border: 1px solid black;
+}
+
+.col-xs {
+    margin-right: 10px;
+}
+
+.container {
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+}
+
+aside {
+    height: 100%;
+}

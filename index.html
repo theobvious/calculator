@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href=style.css>
+    <title></title>
+</head>
+
+<body>
+    <div class=container>
+        <div class=row>
+            <h2>Calculator</h2>
+        </div>
+        <div class=row>
+            <input id="a"><input id="b">
+        </div>
+        <div class=row>
+            <button class="function btn btn-secondary" id="plus">+</button>
+            <button class="function btn btn-secondary" id="minus">-</button>
+            <button class="function btn btn-secondary" id="divide">/</button>
+            <button class="function btn btn-secondary" id="multiply">*</button>
+        </div>
+        <div class=row>
+            <div class=col-xs><h2>Result:</h2></div>
+            <div class=col-xs id="result"></div>
+        </div>
+        <div class=row>
+            <button class="btn btn-secondary" id="calc">Calculate</button>
+            <button class="btn btn-secondary" id="clear">Clear</button>
+        </div>
+    </div>
+    <aside>
+        <h4>Previous calculations:</h4>
+        <div id="old"></div>
+    </aside>
+
+    <script src=main.js></script>
+</body>
+</html>
